@@ -1,0 +1,96 @@
+body{
+    font-family: "Snap ITC",sans-serif;
+    margin:0px;
+    background-color: white;
+    width:100vw;
+    position:absolute;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+
+}
+form{
+   
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    position:absolute;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/swizel012/css-images/master/26576728-numbers-background.jpg);
+    
+   
+}
+.lines{
+    display:grid;
+    grid-gap:5vh;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,1fr) ;
+    
+
+   
+}
+
+.oldtext{
+    
+    font-size:5vh;
+    font-style: bold;
+    font-family: 'Knewave', cursive;
+    
+    height:1fr;
+    text-align: right;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+
+}
+.textview{
+    direction:ltr;
+    font-size:5vh;
+    font-style: bold;
+    font-family: 'Macondo', cursive;
+    height:2fr;
+    text-align: center;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+}
+
+
+h1{ display:flex;
+    flex-flow:row nowrap;
+    justify-content:center;
+    font-family: 'Barriecito', cursive;
+    color:ghostwhite;
+    font-size: 6vh;
+}
+
+
+
+.button{
+    font-size:3vh;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    background-color:darkgray;
+    border-radius: 2vw;
+    width:5vw;
+    height:5vh;
+
+}
+.operators{
+    font-size:3vh;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    border-radius: 2vw;
+    width:5vw;
+    height:5vh;
+    background-color:ghostwhite;
+
+}
+.clear{
+    font-size:3vh;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    border-radius: 2vw;
+    width:4vw;
+    height:7vh;
+    background-color:grey;
+}
